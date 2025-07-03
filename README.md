@@ -6,3 +6,6 @@ Process names (e.g., cmd.exe, powershell.exe)
 Unusual parent-child relationships (e.g., cmd.exe spawned by explorer.exe) (From sans guide and manual test)
 
 (Work in progress) Analyze Process command-line arguments in powershell or cmd (Work in progress)
+
+Looping analysis every 5 seconds for continuous monitoring
+
