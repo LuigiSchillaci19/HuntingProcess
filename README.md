@@ -9,3 +9,10 @@ Unusual parent-child relationships (e.g., cmd.exe spawned by explorer.exe) (From
 
 Looping analysis every 5 seconds for continuous monitoring
 
+⚠️
+
+The parent process whitelist is customizable in isLegitParent().
+
+The tool is designed to be run on a clean virtual machine, with no other third-party applications running, to avoid false positives.
+
+If you're running legitimate applications, be sure to add their parent-child relationships to the isLegitParent() whitelist.
